@@ -1,0 +1,12 @@
+
+body {
+    margin: 35px auto;
+    text-align: center;
+    display: block;
+}
+
+
+@font-face {
+    font-family: 'Secular One', sans-serif;
+    src: url('../Fonts/SecularOne-Regular.ttf');
+}

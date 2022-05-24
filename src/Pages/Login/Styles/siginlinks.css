@@ -1,0 +1,43 @@
+:root{
+    --white: #fff;
+    --google-blue: #4285f4;
+    --button-active-blue: #1669F2;
+}
+
+.btn-google{
+    transition: 0.3s;
+}
+
+.btn-google:hover {
+    background-color:    black;
+    color:  #ECECEC;
+    box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.75);
+ }
+.btn-google:active {
+     background: var(--button-active-blue);
+ }
+
+.btn-facebook{
+    transition: 0.3s;
+    color: #ECECEC;
+    background-color: #2d4373;
+}
+
+.btn-facebook:hover {
+    background-color:    black;
+    color:  #ECECEC;
+    box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.75);
+}
+.btn-facebook:active {
+    background: var(--button-active-blue);
+}
+
+
+.container-google-icon{
+
+    max-width: 3rem;
+}

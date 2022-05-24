@@ -1,0 +1,53 @@
+.main{
+    background-color:   aliceblue;
+
+
+}
+
+
+.container-login{
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 1rem;
+width: 62vw;
+
+}
+.container-login__left{
+
+}
+
+.container-login__right{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+.welcome   {
+    max-width: 50px;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.image{
+    object-fit: fill ;
+    padding: 0px;
+    margin: 0px;
+
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    width: 100%;
+    max-height: 900px;
+}
+
+.tab-active{
+    background-color:    #ECECEC;
+}
+.tab-item {
+   font-size: 18px;
+    font-family:  "Secular One";
+}
+
+.or-container{
+    height: 5px;
+    background-color: #f2f2f2;
+}
